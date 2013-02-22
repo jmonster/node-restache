@@ -1,0 +1,21 @@
+{
+  "name": "restache",
+  "version": "0.0.0",
+  "description": "minimal in-memory caching for express; caches responses with the Cache-Control header set",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jmonster/restache"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "cache",
+    "in-memory"
+  ],
+  "author": "Johnny Domino <jvdomino@gmail.com>",
+  "license": "MIT"
+}
