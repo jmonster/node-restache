@@ -1,6 +1,6 @@
 {
   "name": "restache",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "minimal in-memory caching for express; caches responses with the Cache-Control header set",
   "main": "main.js",
   "scripts": {

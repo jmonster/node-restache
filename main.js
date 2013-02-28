@@ -20,7 +20,7 @@ module.exports = function(req,res,next) {
 
     if (res.getHeader('Cache-Control')) {
       var max_age = res.getHeader('Cache-Control').match(/max-age=(\d+)/)
-        , ttl     = max_age && parseInt(max_age[1])
+        , ttl     = max_age && parseInt(max_age[1]) * 1000 //ms
 
       if (!ttl) { /* abort */ return }
 
